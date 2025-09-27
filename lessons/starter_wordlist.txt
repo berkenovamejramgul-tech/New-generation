@@ -1,0 +1,11 @@
+hello
+goodbye
+please
+thank you
+name
+book
+pen
+school
+apple
+cat
+dog

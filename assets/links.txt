@@ -1,0 +1,11 @@
+Рекомендованные фото (Unsplash) — скачайте и положите в /public/assets:
+- https://unsplash.com/photos/5QgIuuBxKwM (дети в классе)
+- https://unsplash.com/photos/6anudmpILw4 (подростки с ноутбуками)
+- https://unsplash.com/photos/3Mhgvrk4tjM (взрослый с ноутбуком)
+- https://unsplash.com/photos/7okkFhxrxNw (онлайн-уроки)
+
+Рекомендуемые платформы и ресурсы:
+- Duolingo (https://www.duolingo.com)
+- Busuu (https://www.busuu.com)
+- EnglishCentral (https://englishcentral.com)
+- BBC Learning English (https://www.bbc.co.uk/learningenglish)

@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Новое поколение — Центр изучения английского</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gradient-to-r from-purple-500 to-pink-500 text-white">
-  
-  <!-- Шапка -->
+<body class="bg-gradient-to-r from-purple-600 to-pink-500 text-white">
+  <!-- Hero -->
   <header class="p-6 flex justify-between items-center">
     <h1 class="text-3xl font-extrabold">Новое поколение 🚀</h1>
     <button class="bg-yellow-400 text-black px-4 py-2 rounded-lg hover:bg-yellow-300">
@@ -16,85 +7,57 @@
     </button>
   </header>
 
-  <!-- Герой -->
   <section class="text-center py-20">
     <h2 class="text-5xl font-extrabold mb-6">Английский легко и интересно</h2>
-    <p class="text-xl mb-8">
-      Учите английский через современные платформы, общайтесь с носителями и достигайте результата быстрее!
-    </p>
-    <div class="space-x-4">
-      <a href="#courses" class="bg-yellow-400 text-black px-6 py-3 rounded-lg hover:bg-yellow-300">Посмотреть курсы</a>
-      <a href="#contact" class="bg-white text-purple-600 px-6 py-3 rounded-lg hover:bg-gray-100">Записаться</a>
-    </div>
+    <p class="text-xl mb-6">Учите английский через современные платформы и достигайте результата быстрее!</p>
+    <button class="bg-yellow-400 text-black px-6 py-3 rounded-lg font-bold hover:bg-yellow-300">
+      Посмотреть курсы
+    </button>
   </section>
 
   <!-- Курсы -->
-  <section id="courses" class="py-20 bg-gray-100 text-gray-900">
-    <h2 class="text-4xl font-bold text-center mb-12">Наши курсы</h2>
-    <div class="grid md:grid-cols-3 gap-8 px-6">
-      
-      <!-- Kids -->
-      <div class="rounded-xl overflow-hidden shadow-lg bg-gradient-to-r from-pink-400 to-yellow-300 text-white">
-        <div class="p-8">
-          <h3 class="text-2xl font-extrabold mb-4">Kids 👧</h3>
-          <p>Весёлое обучение для детей от 6 до 11 лет через игры, мультфильмы и песни.</p>
-        </div>
+  <section class="py-16 bg-white text-gray-900">
+    <h2 class="text-4xl font-bold text-center mb-10">Наши курсы</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+      <div class="bg-gray-100 p-6 rounded-xl shadow-lg text-center">
+        <h3 class="text-2xl font-bold mb-4">Kids 👶</h3>
+        <p>Весёлое обучение для детей. Английский через игры и песни.</p>
       </div>
-
-      <!-- Teens -->
-      <div class="rounded-xl overflow-hidden shadow-lg bg-gradient-to-r from-purple-500 to-indigo-500 text-white">
-        <div class="p-8">
-          <h3 class="text-2xl font-extrabold mb-4">Teens 🧑‍🎓</h3>
-          <p>Курс для подростков от 12 до 17 лет — современная лексика, разговорные темы и подготовка к экзаменам.</p>
-        </div>
+      <div class="bg-gray-100 p-6 rounded-xl shadow-lg text-center">
+        <h3 class="text-2xl font-bold mb-4">Teens 👩‍🎓</h3>
+        <p>Курсы для подростков. Современные темы и общение с носителями.</p>
       </div>
-
-      <!-- Adults -->
-      <div class="rounded-xl overflow-hidden shadow-lg bg-gradient-to-r from-blue-500 to-green-400 text-white">
-        <div class="p-8">
-          <h3 class="text-2xl font-extrabold mb-4">Adults 👩‍💼</h3>
-          <p>Интенсивные занятия для взрослых: работа, путешествия и сдача международных тестов.</p>
-        </div>
+      <div class="bg-gray-100 p-6 rounded-xl shadow-lg text-center">
+        <h3 class="text-2xl font-bold mb-4">Adults 👨‍💼</h3>
+        <p>Подготовка к экзаменам и свободное владение для работы и путешествий.</p>
       </div>
-
     </div>
   </section>
 
   <!-- Преподаватели -->
-  <section class="py-20">
-    <h2 class="text-4xl font-bold text-center mb-12">Наши преподаватели</h2>
-    <div class="grid md:grid-cols-3 gap-8 px-6">
-      <div class="bg-white text-gray-900 rounded-xl shadow-lg p-6 text-center">
+  <section class="py-16 text-center">
+    <h2 class="text-4xl font-bold mb-10">Наши преподаватели</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+      <div class="bg-white text-gray-900 p-6 rounded-xl shadow-lg">
         <h3 class="text-xl font-bold">Мейрамгуль</h3>
-        <p class="mt-2">Опыт — 7 лет. Специалист по детям и подросткам.</p>
+        <p>7 лет опыта. Специалист по детям и подросткам.</p>
       </div>
-      <div class="bg-white text-gray-900 rounded-xl shadow-lg p-6 text-center">
+      <div class="bg-white text-gray-900 p-6 rounded-xl shadow-lg">
         <h3 class="text-xl font-bold">Богдан</h3>
-        <p class="mt-2">Опыт — 10 лет. Подготовка к IELTS, TOEFL.</p>
+        <p>10 лет опыта. Подготовка к IELTS, TOEFL.</p>
       </div>
-      <div class="bg-white text-gray-900 rounded-xl shadow-lg p-6 text-center">
+      <div class="bg-white text-gray-900 p-6 rounded-xl shadow-lg">
         <h3 class="text-xl font-bold">Лия</h3>
-        <p class="mt-2">Носитель языка, разговорная практика.</p>
+        <p>Носитель языка. Разговорная практика.</p>
       </div>
     </div>
   </section>
 
   <!-- Контакты -->
-  <section id="contact" class="bg-gray-900 text-white py-12 text-center">
-    <h2 class="text-3xl font-bold mb-6">Свяжитесь с нами</h2>
-    <p>📍 Казахстан, г. Актобе</p>
+  <footer class="bg-gray-900 text-gray-300 py-10 text-center">
+    <p>📍 Казахстан, Актобе</p>
     <p>📞 +7 (705) 919-89-80</p>
     <p>✉️ info@newgeneration.kz</p>
-    <button class="mt-6 bg-yellow-400 text-black px-6 py-3 rounded-lg hover:bg-yellow-300">
-      Записаться на пробный урок
-    </button>
-  </section>
-
-  <!-- Подвал -->
-  <footer class="bg-gray-800 text-gray-300 text-center py-6">
-    © 2025 Новое поколение. Все права защищены.
+    <p class="mt-6 text-sm">© 2025 Новое поколение. Все права защищены.</p>
   </footer>
-
 </body>
-</html>
-```
